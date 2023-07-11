@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   border: 0;
+  max-width:auto;
+  max-height: auto;
 }
 
 body {
@@ -10,6 +12,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+
 }
 
 h1, nav {
@@ -28,6 +31,7 @@ border-bottom: #ED1C2C solid 2px;
 img {
 display: flex;
 justify-content: center;
+padding: 10px 10px;
 }
 .header-container {
   display: flex;
@@ -89,7 +93,7 @@ opacity: 1;
   justify-content: center;
   height: auto;
   width: auto;
-  
+
 }
 
 .row-container {
@@ -102,7 +106,7 @@ opacity: 1;
 }
 
 .card {
-  padding: 10px;
+  padding: 20px 20px;
   background-color:;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
@@ -113,16 +117,18 @@ h1 {
   color: #ED1C2C;
 }
 H2 {
-  padding: 20px 20px;
+  padding: 30px 30px;
   color: #FCD900;
 }
 p {
-  color: w;
+  color: #FCD900;
+  padding: 5px 20px;
 }
 
 .card-1 {
   grid-column: 1;
   grid-row: 1 / span 2;
+  margin-left: 60px;
 }
 
 .card-2 {
