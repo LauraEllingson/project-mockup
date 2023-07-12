@@ -15,8 +15,13 @@ h1 {
   padding: 10px 10px;
   color: #ED1C2C;
 }
-H2 {
+h2 {
   color: #ED1C2C;
+}
+h3 {
+color:#fcd900;
+font-size: medium;
+padding: 20px;
 }
 p {
   color: whitesmoke;
@@ -59,4 +64,7 @@ h1 {
   color: #ED1C2C;
   font-size: 48px;
   margin: 10px 0;
+}
+h3 {
+  color: #;
 }
